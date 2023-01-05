@@ -1,0 +1,48 @@
+.background {
+  background-image: url("../img/skyrim-wallpaper-4k-bu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homeBtn {
+  background-image: url("../img/d6dshkw-863440ff-3a3c-4fb7-9d65-c6bd0c82d295.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 250px;
+  top: 130px;
+  transition: transform 0.7s ease-in-out; /* Spin animation */
+}
+
+.home_span {
+  font-family: "Pokemon Solid", sans-serif;
+  position: absolute;
+  left: 150px;
+  top: 65px;
+  text-decoration: none;
+  color: #e359a2;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.title1 {
+  font-family: "Pokemon Solid", sans-serif;
+  position: absolute;
+  left: 750px;
+  top: 30px;
+  text-decoration: none;
+  color: #8959e3;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+
+.homeBtn:hover {
+  transform: rotate(360deg) scale(1.5);
+}
